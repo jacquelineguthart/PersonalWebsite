@@ -1,9 +1,15 @@
 /*I created a css style sheet*/
-img{
+.profile{
   float: right;
   max-height: 500px;
   margin-right:200;
   padding: 50px;
+}
+.Waterside{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 body{
   background-color: rgb(209, 195, 195);
@@ -13,7 +19,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b7a4a4;
+  background-color:purple;
 }
 li{
   float: left;
@@ -29,4 +35,44 @@ li a{
 
 li a:hover{
   background-color: #d50aa9
+}
+/*Different section colors*/
+.Title{
+  background-color: #322b35;
+  color:whitesmoke;
+}
+.First{
+  background-color:purple;
+  color:whitesmoke;
+}
+.Second{
+  background-color: #9a62b3;
+  color:whitesmoke;
+}
+section  {
+  margin: 20px;
+  padding: 20px;
+  Border: 30px;
+}
+.FirstI{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.SecondI{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#d50aa9
+}
+body{
+  font-family:Arial, Helvetica, sans-serif
 }
