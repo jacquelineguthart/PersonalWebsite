@@ -1,8 +1,32 @@
 /*I created a css style sheet*/
-img {
-  /* height: 500px; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+img{
   float: right;
+  max-height: 500px;
+  margin-right:200;
+  padding: 50px;
+}
+body{
+  background-color: rgb(209, 195, 195);
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b7a4a4;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+/*Change link color on hover*/
+
+li a:hover{
+  background-color: #d50aa9
 }
