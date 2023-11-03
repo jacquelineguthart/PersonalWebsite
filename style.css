@@ -76,3 +76,61 @@ h1{
 body{
   font-family:Arial, Helvetica, sans-serif
 }
+
+.hi_green{
+  padding: 5px;
+  width: 300px;
+  position: absolute;
+  z-index: -20px;
+}
+.hi_blue{
+  padding: 150px;
+  width: 400px;
+  position:absolute;
+  z-index: 1;
+}
+.container{
+  margin-bottom: px;
+}
+.Grid-container{
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+  gap: 5px;
+  background-color:rgb(37, 52, 182);
+  padding: 10px;
+  left: 0px;
+  top: 0px;
+}
+
+.Grid-container > div {
+background-color: #10c7df;
+text-align: center;
+padding: 15px;
+font-size: 30px;
+font-family: Copperplate, bold;
+color:white
+
+}
+.Hi { grid-area: header; }
+.Nice { grid-area: menu; }
+.To { grid-area: main; }
+.Meet { grid-area: right; }
+.You{ grid-area: footer; }
+@media(max-width:1050px){
+  h1{
+    color:#d50aa9
+  }
+}
+@media (max-width:768px){
+  h1{
+    color:#eb1da6
+  }
+}
+@media (max-width:320px){
+  h1{
+    color:#150010
+  }
+}
